@@ -10,7 +10,7 @@ void setup ()
     
     // make the manager
     Interactive.make( this );
-    buttons = newMSButton[NUM_ROWS][NUM_COLS];
+
     for(int i = 0; i <= 5; i++){
         for(int n = 0; n <= 5; i++){   
             buttons[i][n] = new MSButton(i,n);
